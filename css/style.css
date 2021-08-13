@@ -1,7 +1,23 @@
+/*-----------------
+    google font  
+------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*------------------ 
+    common styles  
+--------------------*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 /*----------------
     header styles 
  -----------------*/
 .Penguin-fashion-logo{
     width: 291.11px;
     height: 39.27px;
+}
+.Penguin-banner-bg{
+    background-color: #FFFBF0;
 }
