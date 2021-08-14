@@ -1,14 +1,32 @@
 /*-----------------
     google font  
 ------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif;  */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+/* font-family: 'Bebas Neue', cursive;  */
+
+
 
 /*------------------ 
     common styles  
 --------------------*/
 
 body{
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.penguin-button{
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #85A019;
+    border: none;
+    color: #FFFFFF;
+}
+.penguin-button i{
+    margin-right: 8px;
 }
 
 /*----------------
@@ -21,6 +39,40 @@ body{
 .Penguin-banner-bg{
     background-color: #FFFBF0;
 }
+.penguin-banner-img{
+    width: 440.72px;
+}
+.penguin-banner-text p{
+    width: 410px;
+    font-size: 16px;
+}
+.penguin-color-1{
+    color: #FABE4C;
+}
+.penguin-color-2{
+    color: #363958;
+}
+.penguin-color-3{
+    color: #3E3E3E;
+}
+.penguin-banner-text h1{
+    width: 441px;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+}
+.penguin-banner-text p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.Penguin-ul a{
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
 
 
 /* ------------------ 
@@ -29,4 +81,52 @@ body{
 .Penguin-fashion-card img{
     width: 203px;
     height: 273px;
+}
+
+
+/*------------------
+    media queries  
+--------------------*/
+
+/* header  */
+
+@media only  screen and (min-width: 577px) and (max-width :768px) {
+    .penguin-banner-section{
+
+    }
+    .penguin-banner-img{
+        width: 380px;
+        padding-right: 1rem;
+    }
+    .penguin-banner-text h1{
+        width: 380px;
+        font-size: 70px;
+        line-height: 80px;
+        font-weight: 500;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .penguin-banner-text p{
+        width: 350px;
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .penguin-banner-img{
+        width: 309px;
+        padding-right: 1rem;
+        margin-top: 20px;
+    }
+    .penguin-banner-text h1{
+        width: 312px;
+        font-size: 60px;
+        line-height: 50px;
+        font-weight: 500;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .penguin-banner-text p{
+        width: 300px;
+        font-size: 16px;
+    }
 }
